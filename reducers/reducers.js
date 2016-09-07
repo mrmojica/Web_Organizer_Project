@@ -21,12 +21,14 @@ export function mainReducer(state, action) {
 	console.log(actions);
 
 	if (action.type === actions.FETCH_HELLO_SUCCESS) {
-		return {message: action.message};
+
+		//to fix Error: Objects are not valid as a React child (found: object with keys {title}). added action.message.title (added title)
+		return {message: action.message.title};
 
 	}
 
 	else if (action.type === actions.FETCH_HELLO_ERROR) {
-		console.log(action.error);
+		console.log(action.error, 'action.error');
 		return state;
 
 	}

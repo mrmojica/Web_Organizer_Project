@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/api/hello', function(req, res) {
 
-res.send({title:'Hello World!'});
+res.send({title:'Hello World from Express!'});
 
 
 

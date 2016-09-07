@@ -1,0 +1,91 @@
+[{
+   "name": "html",
+   "blurb": "The standard markup language used to create web pages and its elements form the building blocks of all websites.",
+   "url": "http://www.w3schools.com/html/",
+   "category": "frontend",
+   "checked": "false"
+},
+{
+   "name": "css",
+   "blurb": "A style sheet language used for describing the presentation of a document written in a markup language.",
+   "url": "http://www.w3schools.com/css/",
+   "category": "frontend",
+   "checked": "false"
+},
+{
+   "name": "javascript",
+   "blurb": "An object-oriented computer programming language commonly used to create interactive effects within web browsers.",
+   "url": "http://www.w3schools.com/js/",
+   "category": "frontend",
+   "checked": "false"
+},
+{
+   "name": "jquery",
+   "blurb": "A JavaScript library that greatly simplifies JavaScript programming.",
+   "url": "https://jquery.com/",
+   "category": "frontend",
+   "checked": "false"
+},
+{
+   "name": "react",
+   "blurb": "A JavaScript library for building user interfaces.",
+   "url": "https://facebook.github.io/react/",
+   "category": "frontend",
+   "checked": "false"
+},
+{
+   "name": "redux",
+   "blurb": "A predictable state container for JavaScript apps.",
+   "url": "http://redux.js.org/",
+   "category": "backend",
+   "checked": "false"
+},
+{
+   "name": "node",
+   "blurb": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
+   "url": "https://nodejs.org/en/",
+   "category": "backend",
+   "checked": "false"
+},
+{
+   "name": "mongo",
+   "blurb": "A NoSQL open-source cross-platform document-oriented database.",
+   "url": "https://www.mongodb.com/",
+   "category": "database",
+   "checked": "false"
+},
+{
+   "name": "mongoose",
+   "blurb": "A MongoDB object modeling tool designed to work in an asynchronous environment.",
+   "url": "http://mongoosejs.com/",
+   "category": "database",
+   "checked": "false"
+},
+{
+   "name": "postresql",
+   "blurb": "A powerful, open source object-relational database system.",
+   "url": "https://www.postgresql.org/",
+   "category": "database",
+   "checked": "false"
+},
+{
+   "name": "express",
+   "blurb": "A Node.js framework designed for building web applications and APIs.",
+   "url": "https://expressjs.com/",
+   "category": "database",
+   "checked": "false"
+},
+{
+   "name": "mocha",
+   "blurb": "A feature-rich JavaScript test framwork running on Node.js and in the browser.",
+   "url": "https://mochajs.org/",
+   "category": "testing",
+   "checked": "false"
+},
+{
+   "name": "chai",
+   "blurb": "A BDD/TDD assertion library for Node.js and the browswer that can be paired with any JavaScript testing framework.",
+   "url": "http://chaijs.com/",
+   "category": "testing",
+   "checked": "false"
+}]

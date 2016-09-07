@@ -1,25 +1,35 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+
 var SidebarElement = function(props){
   return(
-    <li><label><input type="checkbox" id={props.id} /> {props.title}</label><li>
+    <li><label><input type="checkbox" id={props.id} /> {props.title}</label></li>
   );
 };
 
-var Sidebar = function(props) {
-    return (
-      var listTools = [];
-      for (var i=0; i<props.tools.length; i++) {
-          listTools.push(<SidebarElement id=i title=props.tools.title />);
-      }
 
+
+var Sidebar = function(props) {
+  var listTools = [];
+
+  console.log(props);
+
+for (var i=0; i<props.tools.length; i++) {
+   listTools.push(<SidebarElement id={i} title={props.tools[i].title} />);
+ }
+
+    return (
         <div className="sidebar">
-        <ul>
+        Sidebar this works!
+          <ul>
             {listTools}
-        </ul>
+         </ul>
+          
         </div>
+
     );
 };
+
 
 module.exports = Sidebar;

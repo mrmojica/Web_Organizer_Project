@@ -5,11 +5,17 @@ var store = require('./store');
 // var Provider = require('react-redux').Provider;
 // var connect = require('react-redux').connect;
 var Board = require('./components/board');
+var Sidebar = require('./components/sidebar');
+
+
 // var Provider = require('react-redux').Provider;
 
 var App = function() {
     return (
-        <div><Board /></div>
+        <div>
+        <Sidebar tools={[{title: 'hello world'}]} />
+        <Board />
+        </div>
     );
 };
 

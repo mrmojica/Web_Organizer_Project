@@ -23,7 +23,7 @@ for (var i=0; i<props.tools.length; i++) {
     return (
         <div className="sidebar">
         Sidebar this works!
-        <div>props.message</div>
+        
           <ul>
             {listTools}
          </ul>

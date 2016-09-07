@@ -18,5 +18,21 @@ export function mainReducer(state, action) {
 
 	// }
 
-	return state
+	if (action.type === actions.FETCH_HELLO_SUCCESS) {
+		return {message: action.message};
+
+	}
+
+	else if (action.type === actions.FETCH_HELLO_ERROR) {
+		console.log(action.error);
+		return state;
+
+	}
+
+
+
+
+
+	return state;
 }
+

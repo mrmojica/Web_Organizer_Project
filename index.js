@@ -14,7 +14,7 @@ var store = require('./store');
 var App = function() {
     return (
         <div>
-        <Sidebar tools={[{title: 'hello world'}]} />
+        <Sidebar tools={[{props.message}]} />
         <Board />
         </div>
     );

@@ -15,7 +15,7 @@ var actions = require('./actions/actions');
 var App = React.createClass({
 
 	// console.log('before dispatch', props.message);
-
+	//good for only get's without any data changes
 	componentWillMount: function() {
 		this.props.dispatch(actions.fetchData());
 	},

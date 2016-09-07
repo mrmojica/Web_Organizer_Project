@@ -1,4 +1,5 @@
-import actions from '../actions/actions';
+// import actions from '../actions/actions';
+var actions = require('../actions/actions');
 
 var initialGameState = {
 	message: "hello from redux initial state"
@@ -17,6 +18,7 @@ export function mainReducer(state, action) {
 	// 	return payload.library;
 
 	// }
+	console.log(actions);
 
 	if (action.type === actions.FETCH_HELLO_SUCCESS) {
 		return {message: action.message};

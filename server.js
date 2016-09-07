@@ -1,7 +1,8 @@
 var express = require('express');
 var app = express();
 
-app.get('/', function(req, res) {
+
+app.get('/api/hello', function(req, res) {
 
 res.send({title:'Hello World!'});
 
@@ -10,6 +11,9 @@ res.send({title:'Hello World!'});
 
 });
 
-app.listen(3000, function() {
-	console.log('Listening on port 3000!');
+//serves the html  (http-server)
+app.use(express.static('build'));
+
+app.listen(8080, function() {
+	console.log('Listening on port 8080!');
 });

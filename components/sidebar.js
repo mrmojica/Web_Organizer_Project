@@ -2,6 +2,7 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 
 
+
 var SidebarElement = function(props){
   return(
     <li><label><input type="checkbox" id={props.id} /> {props.title}</label></li>
